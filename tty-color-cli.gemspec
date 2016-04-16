@@ -7,7 +7,7 @@ Gem::Specification.new do |spec|
   spec.email         = ['']
   spec.summary       = %q{CLI tool for terminal color capabilities detection}
   spec.description   = %q{CLI tool for terminal color capabilities detection}
-  spec.homepage      = "http://peter-murach.github.io/tty/"
+  spec.homepage      = "http://piotrmurach.github.io/tty/"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")

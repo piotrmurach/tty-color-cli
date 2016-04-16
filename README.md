@@ -1,17 +1,18 @@
 # TTY::Color CLI
 
 [![Gem Version](https://badge.fury.io/rb/tty-color-cli.svg)][gem]
-[![Build Status](https://secure.travis-ci.org/peter-murach/tty-color-cli.svg?branch=master)][travis]
-[![Code Climate](https://codeclimate.com/github/peter-murach/tty-color-cli/badges/gpa.svg)][codeclimate]
-[![Coverage Status](https://codeclimate.com/github/peter-murach/tty-color-cli/badges/coverage.svg)][codeclimate]
+[![Build Status](https://secure.travis-ci.org/piotrmurach/tty-color-cli.svg?branch=master)][travis]
+[![Code Climate](https://codeclimate.com/github/piotrmurach/tty-color-cli/badges/gpa.svg)][codeclimate]
+[![Coverage Status](https://coveralls.io/repos/github/piotrmurach/tty-color-cli/badge.svg)][coverage]
 
 [gem]: http://badge.fury.io/rb/tty-color-cli
-[travis]: http://travis-ci.org/peter-murach/tty-color-cli
-[codeclimate]: https://codeclimate.com/github/peter-murach/tty-color-cli
+[travis]: http://travis-ci.org/piotrmurach/tty-color-cli
+[codeclimate]: https://codeclimate.com/github/piotrmurach/tty-color-cli
+[coverage]: https://coveralls.io/github/piotrmurach/tty-color-cli
 
 > CLI tool for terminal color capabilities detection
 
-**TTY::Color CLI** provides cli for [TTY::Color](https://github.com/peter-murach/tty-color)
+**TTY::Color CLI** provides cli for [TTY::Color](https://github.com/piotrmurach/tty-color)
 
 ## Installation
 
@@ -54,7 +55,7 @@ color --mode
 
 ## Contributing
 
-1. Fork it ( https://github.com/peter-murach/tty-color-cli/fork )
+1. Fork it ( https://github.com/piotrmurach/tty-color-cli/fork )
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
