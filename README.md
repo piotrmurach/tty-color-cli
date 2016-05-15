@@ -1,10 +1,11 @@
-# TTY::Color CLI
+# TTY::Color CLI [![Gitter](https://badges.gitter.im/Join%20Chat.svg)][gitter]
 
 [![Gem Version](https://badge.fury.io/rb/tty-color-cli.svg)][gem]
 [![Build Status](https://secure.travis-ci.org/piotrmurach/tty-color-cli.svg?branch=master)][travis]
 [![Code Climate](https://codeclimate.com/github/piotrmurach/tty-color-cli/badges/gpa.svg)][codeclimate]
 [![Coverage Status](https://coveralls.io/repos/github/piotrmurach/tty-color-cli/badge.svg)][coverage]
 
+[gitter]: https://gitter.im/piotrmurach/tty
 [gem]: http://badge.fury.io/rb/tty-color-cli
 [travis]: http://travis-ci.org/piotrmurach/tty-color-cli
 [codeclimate]: https://codeclimate.com/github/piotrmurach/tty-color-cli
