@@ -2,9 +2,8 @@
 
 RSpec.describe 'color command' do
   it 'runs without arguments' do
-    expect {
-      system("bin/color")
-    }.to output(/true/).to_stdout_from_any_process
+    expect(`bin/color`).to match(/true/)
+    expect($?.exitstatus).to eq(0)
   end
 
   it 'shows help' do
