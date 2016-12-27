@@ -1,7 +1,6 @@
 # encoding: utf-8
 
 RSpec.describe 'color command' do
-
   it 'runs without arguments' do
     expect(`bin/color`).to match(/true/)
     expect($?.exitstatus).to eq(0)
