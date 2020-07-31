@@ -2,7 +2,7 @@
 
 RSpec.describe "color command" do
   it "runs without arguments" do
-    expect(`bin/color`).to match(/true/)
+    expect(`bin/color`).to match(/(true|false)/)
     expect($?.exitstatus).to eq(0)
   end
 
