@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.homepage      = "https://ttytoolkit.org"
   spec.license       = "MIT"
 
-  spec.files         = `git ls-files -z`.split("\x0")
+  spec.bindir        = "exe"
   spec.executables   = ["color"]
   spec.required_ruby_version = ">= 2.0.0"
 
