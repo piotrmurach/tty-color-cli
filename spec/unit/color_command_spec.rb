@@ -1,12 +1,12 @@
-# encoding: utf-8
+# frozen_string_literal: true
 
-RSpec.describe 'color command' do
-  it 'runs without arguments' do
+RSpec.describe "color command" do
+  it "runs without arguments" do
     expect(`bin/color`).to match(/true/)
     expect($?.exitstatus).to eq(0)
   end
 
-  it 'shows help' do
+  it "shows help" do
     expect(`bin/color --help`).to eq([
       "Usage: color [options]\n",
       "    -s, --support                    Check if terminal supports colors\n",
