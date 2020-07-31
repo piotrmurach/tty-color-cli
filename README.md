@@ -22,7 +22,7 @@
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'tty-color-cli'
+gem "tty-color-cli"
 ```
 
 And then execute:
@@ -35,25 +35,25 @@ Or install it yourself as:
 
 ## Usage
 
-Running `color` with `-h` or `--help` flats will display help information:
+Running `tty-color` with `-h` or `--help` flags will display help information:
 
 ```bash
-$ color --help
+$ tty-color --help
 ```
 
-**TTY::Color** comes with a command line tool to detect color support in terminal. The results are redirected to standard output.
+To detect terminal supports color run `tty-color` or pass a flag `--support` or `-s` like so:
 
 ```bash
-color
-color -s
-color --support
+tty-color
+tty-color -s
+tty-color --support
 ```
 
-and to check number of colors:
+To check number of supported colors do:
 
 ```bash
-color -m
-color --mode
+tty-color -m
+tty-color --mode
 ```
 
 ## Contributing
@@ -66,4 +66,4 @@ color --mode
 
 ## Copyright
 
-Copyright (c) 2016-2017 Piotr Murach. See LICENSE for further details.
+Copyright (c) 2016 Piotr Murach. See LICENSE for further details.
