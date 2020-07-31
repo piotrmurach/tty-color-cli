@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
   spec.license       = "MIT"
 
   spec.bindir        = "exe"
-  spec.executables   = ["color"]
+  spec.executables   = ["tty-color"]
   spec.required_ruby_version = ">= 2.0.0"
 
   spec.add_dependency "tty-color", "~> 0.5"
