@@ -1,6 +1,6 @@
 # encoding: utf-8
 
-$:.unshift File.expand_path("../../bin", __FILE__)
+$:.unshift File.expand_path("../../exe", __FILE__)
 
 if RUBY_VERSION > '1.9' and (ENV['COVERAGE'] || ENV['TRAVIS'])
   require 'simplecov'
