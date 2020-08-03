@@ -10,6 +10,14 @@ Gem::Specification.new do |spec|
   spec.homepage      = "https://ttytoolkit.org"
   spec.license       = "MIT"
 
+  spec.metadata["allowed_push_host"] = "https://rubygems.org"
+  spec.metadata["bug_tracker_uri"] = "https://github.com/piotrmurach/tty-color-cli/issues"
+  spec.metadata["changelog_uri"] = "https://github.com/piotrmurach/tty-color-cli/blob/master/CHANGELOG.md"
+  spec.metadata["documentation_uri"] = "https://www.rubydoc.info/gems/tty-color-cli"
+  spec.metadata["homepage_uri"] = spec.homepage
+  spec.metadata["source_code_uri"] = "https://github.com/piotrmurach/tty-color-cli"
+
+  spec.extra_rdoc_files = Dir["README.md", "CHANGELOG.md", "LICENSE.txt"]
   spec.bindir        = "exe"
   spec.executables   = ["tty-color", "ttycolor"]
   spec.required_ruby_version = ">= 2.0.0"
