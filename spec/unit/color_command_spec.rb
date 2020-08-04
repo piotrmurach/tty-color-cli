@@ -28,4 +28,10 @@ RSpec.describe "color command" do
     expect(`#{cmd} --debug --mode`).to match(/(\d+)/)
     expect($?.exitstatus).to eq(0)
   end
+
+  it "prints error messsage and exits with 1" do
+    output = `#{cmd} --unknown`
+    expect(output).to eq("invalid option: --unknown\n")
+    expect($?.exitstatus).to eq(1)
+  end
 end

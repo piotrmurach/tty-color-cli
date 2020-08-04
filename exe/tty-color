@@ -27,7 +27,12 @@ parser = OptionParser.new do |opts|
   end
 end
 
-parser.parse!
+begin
+  parser.parse!
+rescue OptionParser::ParseError => error
+  puts error.message
+  exit 1
+end
 
 TTY::Color.verbose = options[:verbose]
 
