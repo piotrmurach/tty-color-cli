@@ -8,16 +8,16 @@ require "tty-color"
 options = {}
 
 parser = OptionParser.new do |opts|
-  opts.on("-s", "--support", "Check if terminal supports colors") do
-    options[:color] = true
-  end
-
-  opts.on("-m", "--mode", "Supported colors mode") do
+  opts.on("-m", "--mode", "Check number of supported colors") do
     options[:mode] = true
   end
 
+  opts.on("-s", "--support", "Check terminal for color support") do
+    options[:color] = true
+  end
+
   options[:verbose] = false
-  opts.on("-v", "--verbose", "Output debug information" ) do
+  opts.on("-d", "--debug", "Display debug information" ) do
     options[:verbose] = true
   end
 
