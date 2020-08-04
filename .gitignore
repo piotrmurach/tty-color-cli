@@ -7,8 +7,4 @@
 /pkg/
 /spec/reports/
 /tmp/
-*.bundle
-*.so
-*.o
-*.a
-mkmf.log
+/man/tty-color.1
