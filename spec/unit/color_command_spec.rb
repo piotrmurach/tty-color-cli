@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 RSpec.describe "color command" do
-  let(:cmd) { ::File.join("exe", "tty-color") }
+  let(:cmd) { RSpec::Support::OS.windows? ? "tty-color" : "exe/tty-color" }
 
   it "runs without arguments" do
     expect(`#{cmd}`).to match(/(true|false)/)
