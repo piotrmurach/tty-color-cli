@@ -14,7 +14,8 @@ RSpec.describe "color command" do
       "    -m, --mode                       Check number of supported colors\n",
       "    -s, --support                    Check terminal for color support\n",
       "    -d, --debug                      Display debug information\n",
-      "    -h, --help                       Display help\n"
+      "    -h, --help                       Display help\n",
+      "    -v, --version                    Display the version\n"
     ].join)
     expect($?.exitstatus).to eq(0)
   end

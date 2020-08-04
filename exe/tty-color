@@ -25,6 +25,11 @@ parser = OptionParser.new do |opts|
     puts opts
     exit
   end
+
+  opts.on("-v", "--version", "Display the version") do
+    puts "0.3.0"
+    exit
+  end
 end
 
 begin
