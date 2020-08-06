@@ -25,3 +25,5 @@ namespace :man do
     rm "man/tty-color.1" if File.exist?("man/tty-color.1")
   end
 end
+
+Rake::Task["build"].enhance(%w[man:clean man:build])
