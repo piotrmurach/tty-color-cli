@@ -5,8 +5,8 @@ Gem::Specification.new do |spec|
   spec.version       = "0.3.0"
   spec.authors       = ["Piotr Murach"]
   spec.email         = ["piotr@piotrmurach.com"]
-  spec.summary       = %q{CLI tool for terminal color capabilities detection}
-  spec.description   = %q{CLI tool for terminal color capabilities detection}
+  spec.summary       = %q{A command-line tool for terminal color capabilities detection}
+  spec.description   = %q{A command-line tool for terminal color capabilities detection}
   spec.homepage      = "https://ttytoolkit.org"
   spec.license       = "MIT"
 
@@ -25,6 +25,7 @@ Gem::Specification.new do |spec|
 
   spec.add_dependency "tty-color", "~> 0.5"
 
+  spec.add_development_dependency "kramdown", ">= 1.17"
   spec.add_development_dependency "rake"
   spec.add_development_dependency "rspec", ">= 3.0"
 end
