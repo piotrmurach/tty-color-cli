@@ -27,7 +27,7 @@ parser = OptionParser.new do |opts|
   end
 
   opts.on("-v", "--version", "Display the version") do
-    puts "0.3.0"
+    puts "0.3.0 (tty-color #{TTY::Color::VERSION})"
     exit
   end
 end
