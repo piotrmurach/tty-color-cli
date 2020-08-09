@@ -7,6 +7,8 @@ require "tty-color"
 
 options = {}
 
+ARGV << "-h" if ARGV.empty?
+
 parser = OptionParser.new do |opts|
   opts.on("-m", "--mode", "Check number of supported colors") do
     options[:mode] = true

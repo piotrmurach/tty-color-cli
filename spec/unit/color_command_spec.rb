@@ -6,7 +6,7 @@ RSpec.describe "color command" do
   let(:cmd) { RSpec::Support::OS.windows? ? "tty-color" : "exe/tty-color" }
 
   it "runs without arguments" do
-    expect(`#{cmd}`).to match(/(true|false)/)
+    expect(`#{cmd} --support`).to match(/(true|false)/)
     expect($?.exitstatus).to eq(0)
   end
 
