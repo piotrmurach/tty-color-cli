@@ -41,8 +41,10 @@ The `tty-color` utility exits 0 on success, and 1 if an error occurs.
 
 ## SEE ALSO
 
-The tty-color readme https://github.com/piotrmurach/tty-color
+The `tty-color` readme https://github.com/piotrmurach/tty-color
 
 ## AUTHOR
 
-The `tty-color` utility is written by Piotr Murach <piotr@piotrmurach.com>
+The `tty-color` utility is written by Piotr Murach \<piotr@piotrmurach.com\>
+
+Website: https://ttytoolkit.org
