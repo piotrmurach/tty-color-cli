@@ -1,5 +1,7 @@
 # frozen_string_literal: true
 
+require "open3"
+
 RSpec.describe "color command" do
   let(:cmd) { RSpec::Support::OS.windows? ? "tty-color" : "exe/tty-color" }
 
@@ -31,8 +33,10 @@ RSpec.describe "color command" do
   end
 
   it "prints error messsage and exits with 1" do
-    output = `#{cmd} --unknown`
-    expect(output).to eq("invalid option: --unknown\n")
-    expect($?.exitstatus).to eq(1)
+    out, err, status = Open3.capture3("#{cmd} --unknown")
+
+    expect(out).to eq("")
+    expect(err).to eq("invalid option: --unknown\n")
+    expect(status.exitstatus).to eq(1)
   end
 end

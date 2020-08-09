@@ -35,7 +35,7 @@ end
 begin
   parser.parse!
 rescue OptionParser::ParseError => error
-  puts error.message
+  $stderr.puts error.message
   exit 1
 end
 
