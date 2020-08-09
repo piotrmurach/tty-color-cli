@@ -10,7 +10,7 @@ options = {}
 ARGV << "-h" if ARGV.empty?
 
 parser = OptionParser.new do |opts|
-  opts.on("-m", "--mode", "Check number of supported colors") do
+  opts.on("-m", "--mode", "Check maximum number of supported colors") do
     options[:mode] = true
   end
 

@@ -13,7 +13,7 @@ RSpec.describe "color command" do
   it "shows help" do
     expect(`#{cmd} --help`).to eq([
       "Usage: tty-color [options]\n",
-      "    -m, --mode                       Check number of supported colors\n",
+      "    -m, --mode                       Check maximum number of supported colors\n",
       "    -s, --support                    Check terminal for color support\n",
       "    -d, --debug                      Display debug information\n",
       "    -h, --help                       Display help\n",
