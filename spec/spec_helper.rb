@@ -2,7 +2,7 @@
 
 $:.unshift File.expand_path("../../exe", __FILE__)
 
-if ENV["COVERAGE"] || ENV["TRAVIS"]
+if ENV["COVERAGE"] == "true"
   require "simplecov"
   require "coveralls"
 
