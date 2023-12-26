@@ -1,10 +1,9 @@
-# TTY::Color CLI [![Gitter](https://badges.gitter.im/Join%20Chat.svg)][gitter]
+# TTY::Color CLI
 
 [![Gem Version](https://badge.fury.io/rb/tty-color-cli.svg)][gem]
 [![Actions CI](https://github.com/piotrmurach/tty-color-cli/workflows/CI/badge.svg?branch=master)][gh_actions_ci]
 [![Build status](https://ci.appveyor.com/api/projects/status/tr24h4edq3xqafkn?svg=true)][appveyor]
 
-[gitter]: https://gitter.im/piotrmurach/tty
 [gem]: http://badge.fury.io/rb/tty-color-cli
 [gh_actions_ci]: https://github.com/piotrmurach/tty-color-cli/actions?query=workflow%3ACI
 [appveyor]: https://ci.appveyor.com/project/piotrmurach/tty-color-cli
